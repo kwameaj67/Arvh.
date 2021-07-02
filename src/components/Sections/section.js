@@ -1,5 +1,10 @@
 import './section.css';
+import './section_responsive.css';
 import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
+import img2 from '../../assets/images/brandon-griggs-wR11KBaB86U-unsplash.webp'
+import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
+import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
+import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
 
 function Section() {
     return (
@@ -115,28 +120,28 @@ function Section() {
                     <div className="images_container">
                         <div className="projects_row">
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <img src={img5} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <img src={img2} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <img src={img3} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <img src={img4} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
