@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import './navbar.css';
+import './navbar_responsive.css';
 
 function Navbar() {
   const [show, setShow] = useState(false)
