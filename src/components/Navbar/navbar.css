@@ -57,6 +57,16 @@
     font-family:"Regular";
     padding:15px 35px;
     letter-spacing:0.5px;
+    transition:0.3s all ease-in-out;
+}
+.nav_links_container .nav_link_button .button:hover{
+    background-color:transparent;
+    border: 0.5px solid var(--green);
+    border-radius:2px;
+    padding:15px 35px;
+    transition:0.3s all ease-in-out;
+    color: var(--green);
+    font-family:"Medium";
 }
 .menu{
     display:none;
