@@ -47,6 +47,15 @@
     font-size: 16px;
     text-decoration: none;
     font-family:"Regular";
+    transition:0.3s all ease-in-out;
+}
+.intro_container .text_container .button_container a:hover{
+    background-color:transparent;
+    border: 1px solid var(--green);
+    border-radius:2px;
+    transition:0.3s all ease-in-out;
+    color: var(--green);
+    font-family:"Medium";
 }
 
 .intro_container .img_container{
@@ -355,7 +364,7 @@ display:none;
 }
 .customers_container .quotes_container .quote_text .text{
     color: var(--grey);
-    font-size: 18px;
+    font-size: 16px;
     line-height:35px;
     letter-spacing:0.4px;
     font-family:"Regular"
@@ -418,7 +427,7 @@ display:none;
     font-size: 16px;
     font-family:"Regular";
     letter-spacing:0.5px;
-    line-height:25px;
+    line-height:35px;
 }
 .consult_container .consult_details .consult_button{
     margin-top:50px;
@@ -433,7 +442,12 @@ display:none;
     color:white;
     font-family:"Medium";
     font-size:16px;
+    transition:0.3s all ease-in-out
 }
-.consult_container .consult_details a{
-
+.consult_container .consult_details a:hover{
+    background-color:transparent;
+    border: 1px solid var(--green);
+    border-radius:2px;
+    transition:0.3s all ease-in-out;
+    color: var(--green);
 }
