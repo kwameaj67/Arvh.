@@ -37,7 +37,7 @@ function Section() {
                         <img src={img1} alt="intro_img" className="img" />
                     </div>
                     <div className="about_text_container">
-                        <h1>We Are The Leader in The Architectural</h1>
+                        <h1>We Are The Leader in The Architectural World</h1>
                         <p>For each project we establish relationships with partners who we know will help us create added value to your projects. As well as bringing together the private and public sectors, we make sector-overachering links to gather knowledge and learn from each other.</p>
                         <div className="about_history">
                             <div className="item">
@@ -128,28 +128,28 @@ function Section() {
                     <div className="images_container">
                         <div className="projects_row">
                             <div className="projects_column">
-                                <img src={img5} alt="intro_img" className="img" />
+                                <img src={img1} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img2} alt="intro_img" className="img" />
+                                <img src={img1} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img3} alt="intro_img" className="img" />
+                                <img src={img1} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img4} alt="intro_img" className="img" />
+                                <img src={img1} alt="intro_img" className="img" />
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
