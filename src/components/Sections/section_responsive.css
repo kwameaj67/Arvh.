@@ -110,6 +110,10 @@
         flex-direction:row;
         margin-bottom:2rem;
     }
+    .projects_container .images_container .projects_row .projects_column .project_img{ 
+        width: 350px;
+        height: 450px;
+    }
     .projects_container .images_container .projects_row .projects_column .overlay{
         position: relative;
         padding: 20px 0px;

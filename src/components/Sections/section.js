@@ -1,4 +1,4 @@
-import React,{useEffect,useRef} from 'react';
+import React, { useEffect, useRef } from 'react';
 import './section.css';
 import './section_responsive.css';
 import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
@@ -6,15 +6,15 @@ import img2 from '../../assets/images/brandon-griggs-wR11KBaB86U-unsplash.webp'
 import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
 import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
 import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
-import {intro_text_container} from '../animations/animate'
+import { intro_text_container } from '../animations/animate'
 
 function Section() {
 
     let text_container = useRef(null)
-    useEffect(()=>{
+    useEffect(() => {
         intro_text_container(text_container)
-    },[])
-    
+    }, [])
+
     return (
         <>
             <section className="section_1">
@@ -70,7 +70,7 @@ function Section() {
                                 <h1>Architecture</h1>
                             </div>
                             <div className="service_summary">
-                            <p>Once in the design process, we must go deeper in your project foundation, we need to arrive to the essence</p>
+                                <p>Once in the design process, we must go deeper in your project foundation, we need to arrive to the essence</p>
                             </div>
                             <div className="service_button_container">
                                 <a href="/" className="service_button">
@@ -128,28 +128,36 @@ function Section() {
                     <div className="images_container">
                         <div className="projects_row">
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <div className="project_img">
+                                    <img src={img5} alt="intro_img" className="img" loading="lazy" />
+                                </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <div className="project_img">
+                                    <img src={img4} alt="intro_img" className="img" loading="lazy" />
+                                </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <div className="project_img">
+                                    <img src={img3} alt="intro_img" className="img" loading="lazy" />
+                                </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
                                 </div>
                             </div>
                             <div className="projects_column">
-                                <img src={img1} alt="intro_img" className="img" />
+                                <div className="project_img">
+                                    <img src={img2} alt="intro_img" className="img" loading="lazy" />
+                                </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
                                     <p className="location">Jogja, Indonesia</p>
@@ -184,13 +192,13 @@ function Section() {
             </section>
             <section className="section_6" id="consultation">
                 <div className="consult_container">
-                        <h1>Get Our <br/>Free Consultation</h1>
-                        <div className="consult_details">
-                            <p>Our initial consultation is confidential and completely free of charge. You pay nothing to speak to a lawyer about your case, so what do you have to lose?</p>
-                           <div className="consult_button">
-                           <a href="/">Free Consultation</a>
-                           </div>
+                    <h1>Get Our <br />Free Consultation</h1>
+                    <div className="consult_details">
+                        <p>Our initial consultation is confidential and completely free of charge. You pay nothing to speak to a lawyer about your case, so what do you have to lose?</p>
+                        <div className="consult_button">
+                            <a href="/">Free Consultation</a>
                         </div>
+                    </div>
                 </div>
 
             </section>

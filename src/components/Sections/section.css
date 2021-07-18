@@ -264,7 +264,7 @@
     overflow: scroll;
 }
 .projects_container .images_container .projects_row::webkit-scrollbar{
-display:none;
+    display:none;
 }
 .projects_container .images_container .projects_row{
     display: flex;
@@ -276,20 +276,27 @@ display:none;
     scrollbar-width: none; 
 }
 .projects_container .images_container .projects_row .projects_column{
-    width: 400px;
-    height: 400px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:flex-start;
     flex-direction:column;
-    margin-right: 30px;
+    padding-right: 30px;
     position: relative;
 }
-.projects_container .images_container .projects_row .projects_column .img{
-    /* width:100%; */
+.projects_container .images_container .projects_row .projects_column .project_img{ 
+    width: 450px;
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: rgb(0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+.projects_container .images_container .projects_row .projects_column .project_img .img{
+    width:100%;
     height:100%;
     object-fit:cover;
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0.5);
     background: rgba(0, 0, 0, 0.5);
 }
 .projects_container .images_container .projects_row .projects_column .overlay{
@@ -304,18 +311,15 @@ display:none;
 .projects_container .images_container .projects_row .projects_column .overlay .name{
     opacity:0;
     font-size: 20px;
-    color: white;
+    color: #000;
     font-family:"Bold"
 }
 .projects_container .images_container .projects_row .projects_column .overlay .location{
     opacity:0;
-    font-size: 18px;
-    color: white;
+    font-size: 15px;
+    color: grey;
 }
-.projects_container .images_container .projects_row .projects_column img:hover {
- background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-}
+
 .projects_container .images_container .projects_row .projects_column:hover .overlay .name{
     opacity:1;
     transition: .5s ease;
