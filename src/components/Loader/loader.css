@@ -1,0 +1,12 @@
+:root{
+    --background:#F5EDE4;
+    --background_light:#F9F2EB;
+    --grey:#828282;
+    --green:#1B4B0A;
+}
+.loader_container{
+    background-color:var(--background);
+    display:flex;
+    justify-content:'center';
+    align-items:'center'
+}
