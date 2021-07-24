@@ -1,11 +1,24 @@
+:root{
+   --background:#F5EDE4;
+   --background_light:#F9F2EB;
+   --grey:#828282;
+   --green:#1B4B0A;
+}
 body {
    margin: 0;
    padding:0;
 }
 html { 
    scroll-behavior: smooth;
+   margin: 0;
+   padding:0;
   } 
-
+.loader_container{
+   background-color:var(--background);
+   display:flex;
+   justify-content:'center';
+   align-items:'center'
+}
  @font-face{
   font-family:"Heavy";
   font-style: normal;
