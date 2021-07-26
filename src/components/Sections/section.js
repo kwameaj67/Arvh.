@@ -27,7 +27,7 @@ function Section() {
                         </div>
                     </div>
                     <div className="img_container">
-                        <img src={img1} alt="intro_img" className="img" loading="lazy"/>
+                        <img src={img1} alt="intro_img" className="img" loading="lazy" />
                     </div>
                 </div>
             </section>
