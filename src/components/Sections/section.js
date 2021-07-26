@@ -2,10 +2,11 @@ import React, { useEffect, useRef } from 'react';
 import './section.css';
 import './section_responsive.css';
 import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
-import img2 from '../../assets/images/brandon-griggs-wR11KBaB86U-unsplash.webp'
+// import img2 from '../../assets/images/brandon-griggs-wR11KBaB86U-unsplash.webp'
 import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
 import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
 import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
+import img6 from '../../assets/images/justus-menke-DFVw3VH-9K8-unsplash.webp'
 import { intro_text_container } from '../animations/animate'
 
 function Section() {
@@ -156,7 +157,7 @@ function Section() {
                             </div>
                             <div className="projects_column">
                                 <div className="project_img">
-                                    <img src={img2} alt="intro_img" className="img" loading="lazy" />
+                                    <img src={img6} alt="intro_img" className="img" loading="lazy" />
                                 </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
