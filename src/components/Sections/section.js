@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './section.css';
 import './section_responsive.css';
 import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
-// import img2 from '../../assets/images/brandon-griggs-wR11KBaB86U-unsplash.webp'
+import img2 from '../../assets/images/IMG_5114.JPG'
 import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
 import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
 import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
@@ -130,7 +130,7 @@ function Section() {
                         <div className="projects_row">
                             <div className="projects_column">
                                 <div className="project_img">
-                                    <img src={img5} alt="intro_img" className="img" loading="lazy" />
+                                    <img src={img2} alt="intro_img" className="img" loading="lazy" />
                                 </div>
                                 <div className="overlay">
                                     <h1 className="name">Warung Bogo Hotel</h1>
