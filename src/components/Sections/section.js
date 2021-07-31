@@ -5,7 +5,7 @@ import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
 import img2 from '../../assets/images/IMG_5114.JPG'
 import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
 import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
-import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
+// import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
 import img6 from '../../assets/images/justus-menke-DFVw3VH-9K8-unsplash.webp'
 import { intro_text_container } from '../animations/animate'
 
