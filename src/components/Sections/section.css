@@ -46,7 +46,7 @@
     color: white;
     font-size: 16px;
     text-decoration: none;
-    font-family:"Regular";
+    font-family:"Medium";
     transition:0.3s all ease-in-out;
 }
 .intro_container .text_container .button_container a:hover{
@@ -55,7 +55,6 @@
     border-radius:2px;
     transition:0.3s all ease-in-out;
     color: var(--green);
-    font-family:"Medium";
 }
 
 .intro_container .img_container{
