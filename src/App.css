@@ -1,3 +1,9 @@
+:root{
+  --background:#F5EDE4;
+  --background_light:#F9F2EB;
+  --grey:#828282;
+  --green:#1B4B0A;
+}
 *{
     font-family: 'Medium';
     margin: 0;
@@ -8,3 +14,27 @@
   html { 
     scroll-behavior: smooth;
    } 
+   .App {
+    background-color: var(--background)
+   }
+   .App .loader{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+   }
+   .App .loader h1{
+    font-size:30px;
+    font-family:"Bold";
+    font-weight:400;
+    color:var(--green);
+    letter-spacing:0.5px;
+    cursor:pointer;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   }

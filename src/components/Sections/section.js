@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import './section.css';
 import './section_responsive.css';
 import img1 from '../../assets/images/pixasquare-4ojhpgKpS68-unsplash.webp'
@@ -7,13 +7,13 @@ import img3 from '../../assets/images/grant-lemons-jTCLppdwSEc-unsplash.webp'
 import img4 from '../../assets/images/joel-filipe-RFDP7_80v5A-unsplash.webp'
 // import img5 from '../../assets/images/zane-lee-is2c3NlBXaw-unsplash.webp'
 import img6 from '../../assets/images/justus-menke-DFVw3VH-9K8-unsplash.webp'
-import { intro_text_container } from '../animations/animate'
+// import { intro_text_container } from '../animations/animate'
 
 function Section() {
 
-    let text_container = useRef(null)
+    // let text_container = useRef(null)
     useEffect(() => {
-        intro_text_container(text_container)
+        // intro_text_container(text_container)
     }, [])
 
     return (
@@ -21,7 +21,7 @@ function Section() {
             <section className="section_1">
                 <div className="intro_container">
                     <div className="text_container" >
-                        <h1 ref={(el) => (text_container = el)}>We Believe in Great Architecture </h1>
+                        <h1>We Believe in Great Architecture </h1>
                         <p>The first and the most trusted marketplace of design & build house in the world</p>
                         <div className="button_container">
                             <a href="/">View Project</a>

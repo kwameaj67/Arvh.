@@ -23,14 +23,14 @@
     color: var(--green);
     font-size: 70px;
     font-family:"Bold";
-    letter-spacing:1px;
+    letter-spacing:0.5px;
     max-width: 40rem;
 }
 .intro_container .text_container p{
     color: var(--grey);
     font-size: 16px;
     font-family:"Regular";
-    letter-spacing:0.4px;
+    letter-spacing:0.2px;
     max-width: 24rem;
     line-height: 34px;
     margin-top: 2rem;
