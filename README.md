@@ -6,4 +6,4 @@ Made in [React](https://dribbble.com/shots/15687889-Architecture-Landing-Page)
 [Arvh](https://arvh.netlify.app/)
 
 ## Screenshot 
-<img src="src/assets/images/arvhLandingPage.jpg"  width="900">
+<img src="src/assets/images/arvhLandingPage.png"  width="900">
